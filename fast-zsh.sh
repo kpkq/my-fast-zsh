@@ -72,10 +72,10 @@ for dir in \
         exit
     else
         if [ "$input" = 1 ]; then
-            sed -i '/ZSH_THEME=/c\ZSH_THEME="gnzh"' $HOME/.zshrc
+            sed -i '/ZSH_THEME=/c\ZSH_THEME="candy"' $HOME/.zshrc
             sed -i '/plugins=(/c\plugins=(git zsh-autosuggestions zsh-syntax-highlighting)' $HOME/.zshrc
         else
-            sed -i '/ZSH_THEME=/c\ZSH_THEME="robbyrussell"' $HOME/.zshrc
+            sed -i '/ZSH_THEME=/c\ZSH_THEME="candy"' $HOME/.zshrc
             sed -i '/plugins=(/c\plugins=(git zsh-autosuggestions zsh-syntax-highlighting)' $HOME/.zshrc
         fi
     fi
